@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jourdel C. Laluan — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav" id="nav">
+    <div class="nav-inner">
+        <span class="nav-logo">JL</span>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact" class="nav-cta">Contact</a></li>
+        </ul>
+        <button class="nav-burger" id="burger" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-content">
+        <div class="hero-photo-wrap">
+            <img src="assets/images/profile1.jpg" alt="Jourdel C. Laluan" class="hero-photo" />
+            <div class="hero-photo-ring"></div>
+        </div>
+        <div class="hero-text">
+            <p class="hero-eyebrow">Hello, I'm</p>
+            <h1 class="hero-name">Jourdel C. Laluan</h1>
+            <p class="hero-title">Information Technology Graduate</p>
+            <p class="hero-tagline">Builder of systems, seeker of solutions.</p>
+            <div class="hero-actions">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-outline">Get In Touch</a>
+            </div>
+        </div>
+    </div>
+    <a href="#about" class="hero-scroll" aria-label="Scroll down">
+        <div class="hero-scroll-dot"></div>
+    </a>
+</section>
+
+<!-- ABOUT -->
+<section class="section" id="about">
+    <div class="container">
+        <div class="about-grid">
+            <div class="about-photo-col">
+                <div class="about-photo-frame">
+                    <img src="assets/images/profile2.jpg" alt="Jourdel C. Laluan" />
+                    <div class="about-photo-accent"></div>
+                </div>
+            </div>
+            <div class="about-text-col">
+                <p class="section-eyebrow">About Me</p>
+                <h2 class="section-title">A developer who cares about<br><em>getting it right.</em></h2>
+                <p class="about-body">I'm an Information Technology graduate from the City College of San Fernando Pampanga, with hands-on experience building full-stack web systems from scratch. My capstone project, AVOCare, is a live veterinary marketplace and teleconsultation platform — built with PHP, MySQL, and integrated payment systems.</p>
+                <p class="about-body">I approach every project with curiosity and precision: understanding the problem first, then designing systems that are maintainable, user-friendly, and actually solve something real.</p>
+                <div class="about-meta">
+                    <div class="about-meta-item">
+                        <span class="meta-icon">📍</span>
+                        <span>San Nicolas, City of San Fernando, Pampanga</span>
+                    </div>
+                    <div class="about-meta-item">
+                        <span class="meta-icon">🎓</span>
+                        <span>BS Information Technology, 2026</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="section section-alt" id="experience">
+    <div class="container">
+        <p class="section-eyebrow centered">Work &amp; Internship</p>
+        <h2 class="section-title centered">Experience</h2>
+        <div class="timeline">
+
+            <div class="timeline-item" data-index="0">
+                <div class="timeline-marker"></div>
+                <div class="timeline-card">
+                    <div class="timeline-header">
+                        <div>
+                            <h3 class="timeline-role">Capstone Project Developer</h3>
+                            <p class="timeline-org">City College of San Fernando Pampanga</p>
+                        </div>
+                        <span class="timeline-period">Jan 2026 – Jun 2026</span>
+                    </div>
+                    <ul class="timeline-bullets">
+                        <li>Built AVOCare, a full-stack veterinary e-commerce and teleconsultation platform.</li>
+                        <li>Integrated PayMongo API for secure, real-time payment processing.</li>
+                        <li>Designed and optimized relational database schemas for performance.</li>
+                        <li>Led system analysis, testing, debugging, and technical documentation.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="timeline-item" data-index="1">
+                <div class="timeline-marker"></div>
+                <div class="timeline-card">
+                    <div class="timeline-header">
+                        <div>
+                            <h3 class="timeline-role">IT Intern</h3>
+                            <p class="timeline-org">Philippine Statistics Authority — Region III</p>
+                        </div>
+                        <span class="timeline-period">Feb 2026 – Jun 2026</span>
+                    </div>
+                    <ul class="timeline-bullets">
+                        <li>Maintained computer systems, networks, and software applications.</li>
+                        <li>Provided technical support and resolved hardware/software issues.</li>
+                        <li>Performed data entry, system documentation, and monitoring.</li>
+                        <li>Collaborated with the IT team to improve operational efficiency.</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="section" id="projects">
+    <div class="container">
+        <p class="section-eyebrow centered">What I've Built</p>
+        <h2 class="section-title centered">Projects</h2>
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <div class="project-card-top">
+                    <div class="project-badges-row">
+                        <span class="project-badge">Capstone</span>
+                    </div>
+                    <h3 class="project-name">AVOCare</h3>
+                    <p class="project-sub">Veterinary E-Commerce &amp; Teleconsultation Platform</p>
+                    <p class="project-desc">A multi-role web platform connecting pet owners, veterinarians, and sellers. Features include live video consultations via Jitsi, PayMongo payment integration, appointment scheduling, inventory management, and role-based dashboards for admin, vet, and seller.</p>
+                </div>
+                <div class="project-card-bottom">
+                    <div class="project-stack">
+                        <span class="stack-tag">PHP</span>
+                        <span class="stack-tag">MySQL</span>
+                        <span class="stack-tag">Bootstrap 5</span>
+                        <span class="stack-tag">PayMongo API</span>
+                        <span class="stack-tag">Jitsi Meet</span>
+                    </div>
+                    <a href="https://avocare.shop" target="_blank" class="project-link">Visit Site →</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-card-top">
+                    <div class="project-badges-row">
+                        <span class="project-badge">Academic</span>
+                    </div>
+                    <h3 class="project-name">CCSFP NewsHub</h3>
+                    <p class="project-sub">Campus Information System</p>
+                    <p class="project-desc">A web-based campus news and information system for the City College of San Fernando Pampanga. Built administrative and reporting modules with role-based access control using PHP and MySQL.</p>
+                </div>
+                <div class="project-card-bottom">
+                    <div class="project-stack">
+                        <span class="stack-tag">PHP</span>
+                        <span class="stack-tag">MySQL</span>
+                        <span class="stack-tag">HTML</span>
+                        <span class="stack-tag">CSS</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section class="section section-alt" id="skills">
+    <div class="container">
+        <p class="section-eyebrow centered">What I Work With</p>
+        <h2 class="section-title centered">Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-chip"><span class="skill-icon">💻</span><span class="skill-label">PHP &amp; MySQL</span></div>
+            <div class="skill-chip"><span class="skill-icon">🌐</span><span class="skill-label">HTML &amp; CSS</span></div>
+            <div class="skill-chip"><span class="skill-icon">🔗</span><span class="skill-label">REST APIs</span></div>
+            <div class="skill-chip"><span class="skill-icon">🗄️</span><span class="skill-label">Database Design</span></div>
+            <div class="skill-chip"><span class="skill-icon">🧪</span><span class="skill-label">System Testing</span></div>
+            <div class="skill-chip"><span class="skill-icon">📄</span><span class="skill-label">Documentation</span></div>
+            <div class="skill-chip"><span class="skill-icon">🤝</span><span class="skill-label">Team Collaboration</span></div>
+            <div class="skill-chip"><span class="skill-icon">🛡️</span><span class="skill-label">Cybersecurity Basics</span></div>
+        </div>
+
+        <div class="certs-block">
+            <p class="section-eyebrow centered" style="margin-top:0;">Certifications</p>
+            <div class="certs-list">
+                <div class="cert-item">
+                    <span class="cert-check">✓</span>
+                    <span>Python &amp; R Programming Seminar</span>
+                </div>
+                <div class="cert-item">
+                    <span class="cert-check">✓</span>
+                    <span>BMI Foundation of Cybersecurity</span>
+                </div>
+                <div class="cert-item">
+                    <span class="cert-check">✓</span>
+                    <span>Advanced Networking</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section" id="contact">
+    <div class="container contact-container">
+        <p class="section-eyebrow centered">Let's Connect</p>
+        <h2 class="section-title centered">Get In Touch</h2>
+        <p class="contact-intro">I'm open to opportunities, collaborations, and freelance projects. Feel free to reach out!</p>
+        <div class="contact-cards">
+            <a href="mailto:deonat.jourdel.private@gmail.com" class="contact-card">
+                <span class="contact-card-icon">✉</span>
+                <span class="contact-card-label">Email</span>
+                <span class="contact-card-value">deonat.jourdel.private@gmail.com</span>
+            </a>
+            <a href="tel:+639495884392" class="contact-card">
+                <span class="contact-card-icon">📞</span>
+                <span class="contact-card-label">Phone</span>
+                <span class="contact-card-value">+63 949-588-4392</span>
+            </a>
+            <div class="contact-card">
+                <span class="contact-card-icon">📍</span>
+                <span class="contact-card-label">Location</span>
+                <span class="contact-card-value">San Nicolas, City of San Fernando, Pampanga</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="container footer-inner">
+        <span class="footer-logo">JL</span>
+        <p class="footer-copy">&copy; 2026 Jourdel C. Laluan. Built with passion.</p>
+    </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
